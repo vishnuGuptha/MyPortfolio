@@ -41,7 +41,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
-        <Footer />
+        <div className="mt-auto footer mb-0"><Footer /></div>
       </div>
     </Router>
   );
